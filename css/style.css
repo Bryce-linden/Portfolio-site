@@ -1,0 +1,137 @@
+body{
+	margin:0;
+
+	
+}
+
+
+
+#about-world { 
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+.card:hover{
+    border-color: #228322;
+    
+}
+
+.background{
+    background-color: chartreuse;
+}
+/***this card body part controls the card color***/
+.card-body {
+    background-color: rgb(188, 216, 183);
+    border-color: #9e1414;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card- {
+    background-color: rgb(109, 27, 97);
+}
+
+.btn btn-primary{
+    background-color: chocolate;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f1fa;
+    color: #242424;
+    background-image: url("../assets/brownl");
+    
+}
+/***background-image: url("../css/zig-zag.svg"); /***
+
+/*** this is for the font in the main section ***/
+.container-fluid { 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.jumbotron {
+    background-image: url("../assets/green5.png");
+    text-align: center;
+    color: rgb(138, 34, 34);
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.img-responsive{
+    width:100%;
+}
+
+h1{
+	color:Black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.background{
+	background-color:rgba(245,0,10,.7);
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+	background-color: #678638;
+	border-radius: 0;
+	}
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #242424;
+}
+.navbar-default .navbar-brand {
+	color: white;
+	font-size: px;
+	font-weight: bold;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
