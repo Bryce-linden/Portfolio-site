@@ -14,7 +14,9 @@ body{
     font-weight: bold;
 }
 
-
+h5{
+    font-size: 100px;
+}
 hr {
     border-color: white;
     border-width: 2px;
@@ -57,8 +59,11 @@ a:hover {
     background-color: rgb(109, 27, 97);
 }
 
-.btn btn-primary{
-    background-color: chocolate;
+.btn.btn-primary{
+    background-color: rgb(143, 102, 41);
+}
+.btn.btn-primary:hover{
+    background-color: rgb(184, 154, 133);
 }
 
 body {
@@ -86,6 +91,7 @@ body {
 
 .jumbotron h1 {
     font-size: 50px;
+    color: black;
     font-weight: bold;
     
 }
@@ -97,7 +103,9 @@ body {
 h1{
 	color:Black;
     font-weight: bold;
+    font-size: 200px;
     font-family: 'Montserrat', sans-serif;
+    
 }
 .background{
 	background-color:rgba(245,0,10,.7);

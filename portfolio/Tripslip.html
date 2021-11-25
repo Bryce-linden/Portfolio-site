@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mapbox Psychedelic</title>
+    <title>Bryce Linden</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-</head>
+    
+</head> 
 
 <body>
     <!-- Create the navbar -->
@@ -30,16 +31,19 @@
                <!-- Unordered list for links on navbar -->
                <ul class="navbar-nav">
                    <li class="nav-item">
-                       <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="about.html">About</a>
+                       <a class="nav-link" href="../About.html">About</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="Projects.html">Projects</a>
+                       <a class="nav-link" href="../Projects.html">Projects</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="../Resume.html">Resume</a>
+                </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="../contact.html">Contact</a>
                    </li>
                </ul>
            </div> <!-- end .navbar-collapse -->
@@ -47,73 +51,52 @@
    </nav> <!-- end navigation bar -->  
 
     <div class="container">
-        <div class="row">
+        <div class="row" style="margin-top:30px;">
             <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-                <h2 class="portfolio-title">Mapbox Psychedelic</h2>
-                <h3> (An experiment in aesthetics) </h3>
-                <p class="portfolio-description">This map was made for an assignment focused on aestheticism in mapping. We were given much creative freedom 
-                    to emulate a certain style in our "slippy" map, referring to the capability of zooming and panning the map. I chose to recreate the style of the 1960's psychedelic movement with vivid colors and 
-                    familiar icons to create a "trippy" feel.  
+                <h2 class="portfolio-title"><b>Mapbox Psychedelic</b></h2>
+                <h2> (An experiment in aesthetics) </h2>
+                <p class="portfolio-description"style="margin-top:30px;">This map was made for an assignment focused on aestheticism in mapping. We were given much creative freedom 
+                    to emulate a certain style in our "slippy" map, referring to a map that allows panning and zooming. I chose to recreate the style of the 1960's psychedelic movement with vivid colors and 
+                    familiar icons to create a "trippy" feel. Access the map <a href="https://api.mapbox.com/styles/v1/blinden/ckv0a1c4m0jqc14ofmm49yj72.html?title=view&access_token=pk.eyJ1IjoiYmxpbmRlbiIsImEiOiJja3RicnN2aXQxejJnMm9yNXJ5ODdnZnlzIn0.xxMkVduVt5ll-Trxg1qBPQ&zoomwheel=true&fresh=true#5.36/40.724/-87.192/0/7">here!</a>
                 </p>
                     
             </div>
         </div>
     </div>
-    <!-- ../ syntax works here when the html doc is in the portfolio folder, but this syntax does not work for the projects html which is not in the assets folder-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 ">  <!--portfolio-image figure-img img-fluid (this was added in before but not sure what its function is)-->
-                <a href="../assets/trip1.png">
-                    <img src="../assets/trip1.png" alt="1960's psychedelic movement" class="center-block img-responsive" width="700 px" height="500 px"  />
-                </a>
-            </div>
-            <div class="col-md-6 ">  <!--portfolio-image figure-img img-fluid (this was added in before but not sure what its function is)-->
-                <a href="../assets/trip2.png">
-                    <img src="../assets/trip2.png" alt="1960's psychedelic movement" class="center-block img-responsive" width="700 px" height="500 px" />
-                </a>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row" style="margin-top:50px;">
+
+
+	<div class="container-fluid">
+        <div class="row" style="margin-top:30px;"></div>
             <div class="row">
-                <div class="col-md-6 ">  <!--portfolio-image figure-img img-fluid (this was added in before but not sure what its function is)-->
-                    <a href="../assets/trip3.png">
-                        <img src="../assets/trip3.png" alt="1960's psychedelic movement" class="center-block img-responsive" width="700 px" height="500 px"  />
-                    </a>
+                <div class="col-md-6 ">
+                    <div class="card" >  
+                        <a href="../assets/trip4.png">
+                            <img src="../assets/trip4.png" alt="1960's psychedelic movement" class="card-img-top" >
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">Overview of Adriatic Sea</h4>
+                           
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 ">  <!--portfolio-image figure-img img-fluid (this was added in before but not sure what its function is)-->
-                    <a href="../assets/trip4.png">
-                        <img src="../assets/trip4.png" alt="1960's psychedelic movement" class="center-block img-responsive" width="700 px" height="500 px" />
-                    </a>
+                <div class="col-md-6 "> 
+                    <div class="card">   
+                        <a href="../assets/trip3.png">
+                            <img src="../assets/trip3.png" alt="1960's psychedelic movement" class="card-img-top" >
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">Overview of Europe</h4>
+                           
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
-    <!-- try to incorporate new images here
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <a href="">
-                        <img class="card-img-top" src="assets/colombia-terrain-map-thumbnail.png" alt="colombia terrain map">
-					</a>
-                    <div class="card-body">
-                        <h4 class="card-title">Colombia Terrain</h4>
-                        <a href="portfolio/colombia.html" class="btn btn-primary">See Detail</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <a href="portfolio/childcare.html">
-                        <img class="card-img-top" src="assets/cost-of-childcare-infographic-thumbnail.png" alt="cost of childcare in the united states infographic"></a>
-                    <div class="card-body">
-                        <h4 class="card-title">The Real Cost of Child Care</h4>
-                        <a href="portfolio/childcare.html" class="btn btn-primary">See Detail</a>
-                    </div>
-                </div>
-            </div>
-        -->
+
+
+
+
+
     <!--put your external script links here-->
     <script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
